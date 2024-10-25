@@ -1,7 +1,0 @@
-<div class="container my-2">
-    <button class="btn btn-primary" (click)="addCourse()">Add</button>
-    <div *ngFor="let course of courses; index as i; even as isEven" class="my-2">
-       {{i}} - {{ course.id }} - {{ course.name }} {{isEven? "- EVEN" : ""}}
-       <button class="btn btn-danger" (click)="removeCourse(i)">Remove</button>
-    </div>
-</div>

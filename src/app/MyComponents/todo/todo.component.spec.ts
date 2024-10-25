@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ForStatementComponent } from './for-statement.component';
+import { TodoComponent } from './todo.component';
 
-describe('ForStatementComponent', () => {
-  let component: ForStatementComponent;
-  let fixture: ComponentFixture<ForStatementComponent>;
+describe('TodoComponent', () => {
+  let component: TodoComponent;
+  let fixture: ComponentFixture<TodoComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ForStatementComponent]
+      imports: [TodoComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ForStatementComponent);
+    fixture = TestBed.createComponent(TodoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
